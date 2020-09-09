@@ -1,0 +1,1 @@
+﻿select CustomerId, (FirstName + ' ' + LastName) AS 'Customer Name', Country from Customer where Country = 'Brazil'
